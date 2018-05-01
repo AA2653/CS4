@@ -1,8 +1,8 @@
 ﻿echo "欢迎使用一键搭建"
-echo "即将搭建的是30版本"
+echo "即将搭建的是05.01版本"
 echo "此版本修复载具追随"
 echo "但仍存在bug"
-echo "加Q522681351获取最新动态"
+echo "加Q1264527381获取最新动态"
 
 echo "准备开始安装"
 read -p "回车后开始安装"
@@ -31,8 +31,8 @@ cd libpcap-1.8.1
 make
 make install
 
-git clone https://github.com/vip522681351/pubg.git
-cd pubg/
+git clone https://github.com/1264527381/PUBG_XiNian_0501.git
+cd PUBG_XiNian_0501/
 npm i
 npm i -g pino
 npm install -g forever
