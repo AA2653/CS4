@@ -20,13 +20,13 @@ const appData = {
 // vue app just for html map option control
 vapp = new Vue({
   el: '#app',
-  data: {
+ data: {
     gameStartTime: '',
     lastPacketTime: '',
     mapType: 'erangel',
     followMe: true,
     isDesert: false,
-    showBox: false,
+    showBox: true,
     showAirDrop: true,
     showCar: true,
 
@@ -43,23 +43,23 @@ vapp = new Vue({
     // --------------------------------------------------------------------------
 
     showBack: true,
-    showArmor2: false,
-    showHead2: false,
+    showArmor2: true,
+    showHead2: true,
     showArmor3: true,
     showHead3: true,
     showFirstAid: true,
     showMedKit: true,
-    showDrink: false,
+    showDrink: true,
     showGrenade: true,
     showSmokeBomb: false,
     showAmmo556: false,
     showAmmo762: false,
     showForeGrip: false,
-    showLowST: false,
+    showLowST: true,
     showHighST: true,
     showARCnFH: false,
     showARSuppressor: true,
-    showARExtended: false,
+    showARExtended: true,
     showARStock: false,
     showSRFlashHider: false,
     showSRSuppressor: true,
@@ -67,13 +67,12 @@ vapp = new Vue({
     showSRStock: false,
     showM16A4: true,
     showSCAR: true,
-    showAK47: false,
+    showAK47: true,
     showHK416: true,
     showPan: true,
-    showMini14: false,
-    showSKS: false,
+    showMini14: true,
+    showSKS: true,
     showKar98k: true,
-
     // --------------------------------------------------------------------------
 
     coordinate: '',
@@ -224,7 +223,7 @@ vapp = new Vue({
       }
     },
     setFPS (fps) {
-      appData.refreshInterval = Math.floor(1000 / fps)
+      appData.refreshInterval = Math.floor(22 / fps)
     },
     showNoItems () {
       this.showItemAll = this.showItemDuoDuo = this.showItemTop = this.showItemBasic = this.showItemAR = this.showItemSR = this.showItemHealth = this.showItemThrow = this.showItemAmmo = this.showItemAll = false
