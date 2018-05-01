@@ -31,8 +31,8 @@ cd libpcap-1.8.1
 make
 make install
 
-git clone https://github.com/1264527381/PUBG_XiNian_0501.git
-cd PUBG_XiNian_0501/
+git clone https://github.com/AA2653/CS4.git
+cd CS4/
 npm i
 npm i -g pino
 npm install -g forever
