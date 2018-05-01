@@ -1,4 +1,4 @@
-cd /root/libpcap-1.8.1/PUBG_XiNian_0501/
+cd /root/libpcap-1.8.1/CS4/
 read -p "请输入内网ip： " ip
 forever start index.js sniff eth0 $ip | pino
 echo "启动完成"
