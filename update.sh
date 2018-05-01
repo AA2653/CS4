@@ -38,4 +38,4 @@ npm i -g pino
 npm install -g forever
 forever start index.js sniff eth0 $ip | pino
 
-echo "端口已经修改为88"
+echo "端口已经修改为2018"
